@@ -1,0 +1,89 @@
+body{
+    background:rgba(0, 128, 0, 0.3) url("img/sakura.jpg") repeat-y;
+}
+img.contas{
+    width: 80%;
+    height: auto;
+    float:none;
+    margin-left: 5%;
+    display: inline-block;
+}
+.button-4 {
+    background-color: transparent;
+    border: 1px solid #ea9499;
+    color: black;
+    transition: .3s;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-top:5%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration:none;
+  }
+  .button-4:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+    background:#ea9499 ;
+    color: white;
+    text-decoration:none;
+    
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+   nav.navbar{
+    background:#ea9499 ;
+   
+   }
+   a.navbar-brand{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+   color:white ;
+   
+   }
+   a.navbar-brand:hover{
+       color: white;
+   }
+  h1{
+      float:none;
+      text-align: center;
+      color: black;
+      font-family: 'Abril Fatface', cursive;
+  }
+  button.btn {
+    background-color: transparent;
+    border: 1px solid #ea9499;
+    color: black;
+    transition: .3s;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+  }
+  button.btn:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+    background:#ea9499 ;
+    color: white;
+    text-decoration:none;
+    
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
